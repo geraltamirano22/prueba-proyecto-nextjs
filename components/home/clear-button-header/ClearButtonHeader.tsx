@@ -1,6 +1,9 @@
+import './ClearButtonHeader.css'
 
-export default function Button (text){
-    return{
-        text
-    }
-}
+export default function ClearButton ({text}:{text: string}){
+    return(
+        <button>
+            {text}
+        </button>
+    )
+};

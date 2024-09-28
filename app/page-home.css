@@ -1,0 +1,48 @@
+.header-home{
+    padding: 15px;
+  }
+  
+  .links-header-home{
+    display: grid;
+    grid-template-columns: 300px repeat(2,1fr);
+    border: 1px solid black;
+  }
+  
+  .logo-empresa{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+  }
+  
+  .links-header-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+  }
+  
+  .links-header-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+  }
+
+  .home-1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 100px;
+  }
+
+  .text-home-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .text-home-1 > h1{
+    font-size: 30px;
+  }
