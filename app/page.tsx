@@ -1,8 +1,8 @@
-import { HeaderHome } from "@/components/home/HeaderHome/HeaderHome";
-import { FirstViewHome } from "@/components/home/FirstViewHome/FirstViewHome";
-import { MiddleCards } from "@/components/home/MiddleCards/MiddleCards";
-import { SecondViewHome } from "@/components/home/SecondViewHome/SecondViewHome";
-import { ThirdViewHome } from "@/components/home/ThirdViewHome/ThirdViewHome";
+import { HeaderHome } from "@/components/home";
+import { FirstViewHome } from "@/components/home";
+import { MiddleCards } from "@/components/home";
+import { SecondViewHome } from "@/components/home";
+import { ThirdViewHome } from "@/components/home";
 
 export default function Home() {
   return (
